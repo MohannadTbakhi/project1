@@ -24,7 +24,12 @@
 
 .nav ul li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
+    padding: 8px 15px;
+    border: 2px solid black;
+    background: #6495ED;
+    color: #000000;
+    border-radius: 30px;
 }
 
 a{
@@ -47,4 +52,31 @@ p{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content:space-around ;
+}
+
+.sec1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.sec1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.sec1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #6495ED;
+    color: #000000;
+    border: 2px solid black;
+    padding: 8px 30px;
+    margin: 50px 0;
+    border-radius: 30px;
 }
