@@ -25,11 +25,12 @@
 .nav ul li{
     display: inline-block;
     margin-right: 50px;
-    padding: 8px 30px;
+    padding: 8px 40px;
     border: 2px solid black;
     background:#87CEFA;
     color: #000000;
     border-radius: 30px;
+    transition: background 0.5s ;
 }
 
 a{
@@ -75,10 +76,10 @@ p{
 
 .btn{
     display: inline-block;
-    background:#1489BD;
+    background:#86CEF1;
     color: #000000;
     border: 2px solid black;
-    padding: 8px 30px;
+    padding: 8px 40px;
     margin: 50px 0;
     border-radius: 30px;
     transition: background 0.5s ;
