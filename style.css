@@ -75,11 +75,20 @@ p{
 
 .btn{
     display: inline-block;
-    background:#87CEFA;
+    background:#1489BD;
     color: #000000;
     border: 2px solid black;
     padding: 8px 30px;
     margin: 50px 0;
     border-radius: 30px;
+    transition: background 0.5s ;
 }
 
+.btn:hover{
+    background: teal;
+
+}
+
+.nav ul li:hover{
+    background: teal;
+}
